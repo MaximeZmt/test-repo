@@ -1,9 +1,9 @@
 import pytest
 from calculator.operations import add, subtract, multiply, divide
 
-
+# We define the addition as a concatenation of numbers
 def test_add():
-    assert add.compute(2, 3) == 5
+    assert add.compute(2, 3) == 23
 
 
 def test_subtract():

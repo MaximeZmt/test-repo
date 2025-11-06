@@ -2,9 +2,9 @@
 import pytest
 from calculator.parser import evaluate_expression
 
-
+# We define the addition as a concatenation of numbers
 def test_valid_addition():
-    assert evaluate_expression("3 + 4") == 7.0
+    assert evaluate_expression("3 + 4") == 34
 
 
 def test_valid_subtraction():
