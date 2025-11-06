@@ -1,2 +1,2 @@
 def compute(a: float, b: float) -> float:
-    return a + b 
+    raise NotImplementedError("Addition operation is not implemented yet")
